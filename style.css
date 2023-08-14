@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(19, 17, 28);
+}
+
+.header{
+    width: auto;
+    height: 715px;
+    background-image: url(./assets/images/header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.fa-arrow-down{
+    font-size: 60px;
+    color: white;
+}
+
+.icon-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 85, 62);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 150px;
+    border: 3px solid white;
+}
+
+.reseña{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.br-ba{
+    display: flex;
+    align-items: start;
+}
+
+.br-ba-poster img{
+    width: 350px;
+    border: 1px solid white;
+}
+
+.titular{
+    color: yellow;
+    font-size: 80px;
+    font-family: 'REM', sans-serif;
+}
+
+.sinopsis{
+    display: inline-block;
+    width: 500px;
+    margin-left: 50px;
+    font-family: 'REM', sans-serif;
+    font-size: 25px;
+}
+
+.user-score{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.score{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+}
+
+.metacritic img{
+    width: 300px;
+}
+
+.personajes{
+    margin-top: 220px;
+    background-color: rgb(21, 19, 31);
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    gap: 50px;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/*------------------------------------------------ TARJETAS DE PERSONAJES--------------------------------------------*/
+
+.foto img{
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tarjeta{
+    width: 250px;
+    background-color: rgb(13, 85, 62);
+    border-radius: 5px;
+    font-family: 'REM', sans-serif;
+    border: 1px solid white;
+}
+
+.tarjeta:hover{
+    transition: transform .5s;
+    transform: scale(1.02);
+}
+
+.nombre-personaje{
+    text-align: center;
+    font-size: 35px;
+}
+
+.nombre-actor , .numero-de-capitulos{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.fa-person{
+    margin-left: 5px;
+}
+
+/*------------------------------------------------CONTENIDO RELACIONADO----------------------------------------------*/
+
+.foto-rc img{
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
+}
+
+.related-content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-family: 'REM', sans-serif;
+}
+
+.contenedor-rc{
+    display: flex;
+    width: 700px;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+
+h2{
+    font-size: 45px;
+    color: yellow;
+}
+
+
+
+.txt-bcs{
+    margin-left: 5px;
+}
+
+/*---------------------------------------------------------FOOTER--------------------------------------------------------*/
+
+
+footer{
+    background-color: rgb(21, 19, 31);
+    height: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6{
+    color: grey;
+    font-size: 15px;
+}
