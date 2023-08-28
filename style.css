@@ -169,7 +169,7 @@ a:link{
 
 .contenedor-rc{
     display: flex;
-    width: 700px;
+    width: 720px;
     align-items: center;
     gap: 10px;
     color: white;
@@ -184,8 +184,12 @@ h2{
 
 
 
-.txt-bcs{
-    margin-left: 5px;
+#texto-bcs{
+    margin-left: 10px;
+}
+
+#h2-bcs{
+    margin-left: 10px;
 }
 
 /*---------------------------------------------------------FOOTER--------------------------------------------------------*/
